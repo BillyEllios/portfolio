@@ -254,3 +254,17 @@ footer{
   margin-left: 20%; 
 }
 
+.title_projects{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px black;
+  margin-right: 20%;
+  margin-left: 20%; 
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
