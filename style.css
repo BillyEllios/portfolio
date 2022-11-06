@@ -83,6 +83,7 @@ article{
 }
 
 .left_pres{
+  display: inline;
   width: 80%;
   margin-left: 20%;
   color: white;
@@ -90,7 +91,7 @@ article{
 
 .right_pres{
   width: 20%;
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 .about{
@@ -105,8 +106,8 @@ article{
   justify-content: center;
   border: solid 3px black;
   margin-top: 5%;
-  margin-right: 20%;
-  margin-left: 20%; 
+  margin-right: 10%;
+  margin-left: 10%; 
 }
 
 .p_about{
@@ -153,8 +154,13 @@ article{
   justify-content: center;
   border: solid 3px black;
   margin-top: 5%;
-  margin-right: 20%;
-  margin-left: 20%; 
+  margin-right: 10%;
+  margin-left: 10%; 
+}
+
+.project_grid_title{
+  margin-right:10%;
+  margin-left:10%;
 }
 
 .title_project{
@@ -162,7 +168,6 @@ article{
   align-items: center;
   justify-content: center;
   border: solid 3px black;
-  margin-top: 2%;
   margin-bottom: 2%;
   margin-right: 20%;
   margin-left: 20%; 
@@ -233,6 +238,8 @@ article{
   justify-content: space-evenly;
   flex-wrap: wrap;
   row-gap: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer{
@@ -244,14 +251,19 @@ footer{
   margin-left: 20%;
 }
 
+.contact_link{
+  display: flex;
+  justify-content: space-between;
+}
+
 .title_contact{
   display: flex;
   align-items: center;
   justify-content: center;
   border: solid 3px black;
   margin-bottom: 2%;
-  margin-right: 20%;
-  margin-left: 20%; 
+  margin-right: 10%;
+  margin-left: 10%; 
 }
 
 .title_projects{
@@ -267,4 +279,70 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.first_part_projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.second_part_projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.third_part_projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.thourth_part_projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.last_part_projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.first_img_projects{
+  width: 1120px;
+  height: 550px;
+}
+
+.second_img_projects{
+  width: 700px ;
+  height: 342px;
+}
+
+.third_img_projects{
+  width: 700px ;
+  height: 342px;
+}
+
+.thourth_img_projects{
+  width: 700px ;
+  height: 342px;
+}
+
+.last_img_projects{
+  width: 741px;
+  height: 362px;
 }
