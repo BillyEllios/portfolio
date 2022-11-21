@@ -85,7 +85,6 @@ article{
 .pres{
   display: flex;
   background-color: #252424;
-  height: 260px;
 }
 
 .left_pres{
@@ -356,4 +355,77 @@ footer{
 .last_img_projects{
   width: 741px;
   height: 362px;
+}
+
+@media(max-width: 768px){
+  .logo{
+    display: none;
+  }
+  .pres{
+    width: 100%;
+  }
+  .pres h1{
+    display: flex;
+    justify-content: center;
+  }
+  .left_pres p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media(max-width: 640px){
+  .moi{
+    display: none;
+  }
+  .hero{
+    color: white;
+    height: 450px;
+    display: flex;
+    background-image: url("./images/img_hero.jpg");
+    background-size: cover;
+    justify-content: center;
+  }
+  .left_hero h1 ,p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .left_hero{
+    margin: 0;
+  }
+  .right_hero{
+    margin: 0;
+    width: 0;
+  }
+  .link_hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button_hero{
+    margin: 1%;
+  }
+}
+
+@media(max-width: 575px){
+  .img_skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .know_skills{
+    display: flex;
+    justify-content: center;
+  }
+  .learning_skills{
+    display: flex;
+    justify-content: center;
+  }
+  .other_skills{
+    display: flex;
+    justify-content: center;
+  }
 }
