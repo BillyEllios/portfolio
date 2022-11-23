@@ -243,6 +243,10 @@ article{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.project{
+  margin-bottom: 1%;
+}
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -357,26 +361,7 @@ footer{
   height: 362px;
 }
 
-@media(max-width: 768px){
-  .logo{
-    display: none;
-  }
-  .pres{
-    width: 100%;
-  }
-  .pres h1{
-    display: flex;
-    justify-content: center;
-  }
-  .left_pres p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-}
-
-@media(max-width: 640px){
+@media(max-width: 1024px){
   .moi{
     display: none;
   }
@@ -407,6 +392,22 @@ footer{
   }
   .button_hero{
     margin: 1%;
+  }
+  .logo{
+    display: none;
+  }
+  .pres{
+    width: 100%;
+  }
+  .pres h1{
+    display: flex;
+    justify-content: center;
+  }
+  .left_pres p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
