@@ -376,6 +376,12 @@ footer{
   .moi{
     display: none;
   }
+  .menu_2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .hero{
     color: white;
     height: 450px;
