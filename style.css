@@ -108,6 +108,24 @@ article{
   height: 100%;
 }
 
+.button_cv{
+  padding: 0.3em;
+  border-radius: 0.6em;
+  background-color: #c4c4c4;
+ 
+}
+
+.button_cv a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.button_cv:hover{
+  transition-duration: 0.4s;
+  transform: scale(1.1); 
+}
+
 .about{
   margin-right: 10%;
   margin-left: 10%;
@@ -129,6 +147,8 @@ article{
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-right: 10%;
+  margin-left: 10%; 
 }
 
 .separator{
@@ -283,6 +303,7 @@ article{
 
 .project{
   margin-bottom: 1%;
+  background-color: #c4c4c4;
 }
 
 .container {
@@ -414,16 +435,14 @@ article{
 }
 
 .veille button{
-  border: none;
-  background-color: #c4c4c4;
-  font-weight: bold;
+  margin-top: 2%;
+  padding: 0.3em;
+  border-radius: 0.6em;
+  background-color: black;
+  color: white;
 }
 
 .veille button:hover{
-  background-color: black;
-  color:white;
-  padding: 10px 15px;
-  border-radius: 0.6em 0.6em;
   transition-duration: 0.4s;
   transform: scale(1.1); 
 }
