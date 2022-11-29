@@ -75,6 +75,7 @@ body{
   border: none;
   background-color: #c4c4c4 ;
   margin-top: 20%;
+  border-radius: 1em;
 }
 
 .link_hero{
@@ -108,8 +109,8 @@ article{
 }
 
 .about{
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
   margin-bottom: 2%;
 }
 
@@ -136,12 +137,14 @@ article{
   align-items: center;
   justify-content: center;
   margin-bottom: 2%;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .img_skills{
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .img_known_skills{
@@ -157,8 +160,9 @@ article{
 }
 
 .skills{
-  margin-right:20%;
-  margin-left:20%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 .title_skills{
@@ -171,6 +175,21 @@ article{
   margin-left: 10%; 
 }
 
+.know_skills{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.learning_skills{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.other_skills{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .project_grid_title{
   margin-right:10%;
   margin-left:10%;
@@ -180,14 +199,24 @@ article{
   height: 10px;
 }
 
+.title_project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px black;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%; 
+}
+
 .title_projects{
   display: flex;
   align-items: center;
   justify-content: center;
   border: solid 3px black;
   margin-bottom: 2%;
-  margin-right: 20%;
-  margin-left: 20%; 
+  margin-right: 10%;
+  margin-left: 10%; 
 }
 
 /********* Superposition simple de texte sur une image *******/
@@ -203,6 +232,7 @@ article{
   display: block;
   width: 400px;
   height: 340px;
+  border-radius: 2em;
 }
 
 /* Texte original */
@@ -229,6 +259,7 @@ article{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  border-radius: 2em;
 }
 
 /* Apparition overlay sur passage souris */
@@ -259,22 +290,9 @@ article{
   justify-content: space-evenly;
   flex-wrap: wrap;
   row-gap: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-footer{
-  background-color: #c4c4c4;
-}
-
-.contact{
-  margin-right: 20%;
-  margin-left: 20%;
-}
-
-.contact_link{
-  display: flex;
-  justify-content: space-between;
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .title_contact{
@@ -370,6 +388,49 @@ footer{
 
 .left_projects{
   margin-right: 2%;
+}
+
+.veille{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.title_veille{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px black;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%; 
+}
+
+.p_veille{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.veille button{
+  border: none;
+  background-color: #c4c4c4;
+  font-weight: bold;
+}
+
+.veille button:hover{
+  background-color: black;
+  color:white;
+  padding: 10px 15px;
+  border-radius: 0.6em 0.6em;
+  transition-duration: 0.4s;
+  transform: scale(1.1); 
+}
+
+footer{
+  padding: 8px;
+  background-color: #c4c4c4;
 }
 
 @media(max-width: 1024px){
