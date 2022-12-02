@@ -477,6 +477,10 @@ article{
   margin-left: 10%; 
 }
 
+.title_veille h1{
+  margin: 15px;
+}
+
 .p_veille{
   display: flex;
   align-items: center;
