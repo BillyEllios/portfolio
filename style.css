@@ -184,7 +184,7 @@ article{
 .exp_about{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   margin-right: 10%;
   margin-left: 10%; 
 }
@@ -193,21 +193,24 @@ article{
   text-decoration: underline;
 }
 
+.icon_skills{
+  height: 144px;
+  width: 144px;
+}
+
 .img_skills{
-  display: flex;
+  display: grid;
+  margin-top: 2%;
+  grid-template-columns: 33% 33% 33%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .img_known_skills{
-  margin: 2%;
-}
-
-.img_learning_skills{
-  margin: 2%;
-}
-
-.img_other_skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 2%;
 }
 
@@ -225,21 +228,6 @@ article{
   margin-top: 5%;
   margin-right: 10%;
   margin-left: 10%; 
-}
-
-.know_skills{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.learning_skills{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.other_skills{
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .project_grid_title{
@@ -344,8 +332,8 @@ article{
   flex-wrap: wrap;
   row-gap: 50px;
   padding: 1%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .title_contact{
