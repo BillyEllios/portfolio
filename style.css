@@ -441,26 +441,31 @@ article{
 .first_img_projects{
   width: 100%;
   height: 550px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .second_img_projects{
   width: 800px ;
   height: 400px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .third_img_projects{
   width: 800px ;
   height: 400px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .thourth_img_projects{
   width: 800px ;
   height: 400px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .last_img_projects{
   width: 800px;
   height: 400px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .left_projects{
@@ -548,7 +553,7 @@ article{
 
 .histoire_vr{
   display: flex;
-  
+
 }
 
 .intro_p{
@@ -695,6 +700,9 @@ footer{
   }
   .exp_about p{
     flex-direction: column;
+  }
+  .under_title{
+    text-align: center;
   }
 }
 
