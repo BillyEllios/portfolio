@@ -271,6 +271,29 @@ article{
   height: 10px;
 }
 
+.sub_title_project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;;
+  margin-right: 10%;
+  margin-left: 10%; 
+}
+
+.back_home{
+  position: sticky;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+}
+
+.back_home:hover{
+  background-color: #0b365c;
+  color: #F3E7E7;
+}
+
 .title_project{
   display: flex;
   align-items: center;
