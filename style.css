@@ -294,6 +294,19 @@ article{
   color: #F3E7E7;
 }
 
+.link_to_project{
+  border: 1px solid black;
+  border-radius: 10px;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+}
+
+.link_to_project:hover{
+  background-color: #0b365c;
+  color: #F3E7E7;
+}
+
 .title_project{
   display: flex;
   align-items: center;
