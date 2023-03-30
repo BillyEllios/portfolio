@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
 html{
   scroll-behavior: smooth;
 }
 
 p{
   font-size: large;
+  font-family: 'Nunito',sans-serif;
 }
 
 h1{
   font-size: xx-large;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
 }
 
+h2{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+}
 
 body{
   margin: 0;
